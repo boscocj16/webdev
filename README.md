@@ -1,3 +1,10 @@
+import Header from './header';
+import Content from './content';
+import Total from './total';
+
+
+
+
 const Part = ({ partName, exercises }) => {
   return (
     <p>{partName} {exercises}</p>
